@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: addColumn-description
+      author: Serhii
+      changes:
+        - changes:
+            - addColumn:
+                schemaName: nix
+                tableName: photo
+                columns:
+                    - column:
+                       name: description
+                       type: text(255)
