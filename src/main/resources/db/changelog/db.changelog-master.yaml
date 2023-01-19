@@ -11,3 +11,6 @@ databaseChangeLog:
   - include:
       file: 004-create-table-photo.yaml
       relativeToChangelogFile: true
+  - include:
+      file:  005-create-column-description-photo.yaml
+      relativeToChangelogFile: true
