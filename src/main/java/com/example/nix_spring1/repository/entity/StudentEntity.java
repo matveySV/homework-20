@@ -22,7 +22,7 @@ public class StudentEntity {
     @Column(name = "id")
     private long id;
 
-    @Column(name = "name")
+    @Column
     private String name;
 
     @Column(name = "email")
